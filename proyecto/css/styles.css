@@ -1,0 +1,103 @@
+/* Bem */
+
+
+/* 
+metodología para nombrar tus clases de CSS Bloque, Elemento y Modificador.
+Ejemplo: 
+<button class="button button--active">
+    <i class="button__icon"></i>
+    <span class="button__text"></span>
+</button>
+
+Los guiones bajos (__) se usan para separar el bloque del elemento,
+Los guiones medios (--) se usan para separar el bloque o el elemento del modificador.
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+#menu {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    margin: 10px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.bienvenida {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bienvendia__descripcion {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+}
+
+.bienvenida__titulo {
+    font-size: 32px;
+}
+
+.bienvenida__img {
+    /* width: 200px;
+    margin: 50px;
+    padding: 30px;
+    border: 2px dashed palevioletred; */
+    width: 100%;
+    max-width: 300px;
+}
+
+.galeria {
+    /*centar los elementos*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+
+.galeria__scroll {
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+.galeria__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.galeria__img {
+    width: 100%;
+    max-width: 300px;
+    opacity: 50%;
+}
+
+.galeria__img:hover {
+    opacity: 100%;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+}
