@@ -1,0 +1,23 @@
+.caja {
+    width: 50%;
+    margin: 20%;
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(0, 218, 18));
+}
+
+svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
